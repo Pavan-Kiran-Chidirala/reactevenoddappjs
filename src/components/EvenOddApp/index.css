@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 450px;
+  height: 450px;
+  border-radius: 15px;
+}
+.btn {
+  padding: 5px;
+  width: 100px;
+  border-style: none;
+  border-radius: 5px;
+}
+.para2 {
+  color: #334155;
+  font-size: small;
+}
